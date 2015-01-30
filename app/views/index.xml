@@ -1,8 +1,7 @@
 <Alloy>
-	<Window class="container"  backgroundColor="gray" id="mainWin" >
-		<View id="index">
-			
-		</View>
-		<!-- <Label id="label" onClick="doClick">Hello, World</Label> -->
-	</Window>
+  <Window class="container"  backgroundColor="gray" id="mainWin"  layout="vertical">
+    <View id="index" height="Ti.UI.SIZE" top="50"></View>
+    <Label id="label" >----------------------------</Label>
+    <Widget id="checkbox" src="com.dianlike.checkbox" height="Ti.UI.SIZE"></Widget>
+  </Window>
 </Alloy>

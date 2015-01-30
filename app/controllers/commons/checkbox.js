@@ -10,8 +10,8 @@ var Commons =
     {
       buttonOptions:
       {
-        backgroundUncheckedImage: '/images/checkbox/checkbox-icon-unchecked.png',
-        backgroundCheckedImage: '/images/checkbox/checkbox-icon-checked.png',
+        backgroundUncheckedImage: '/images/controller/checkbox/checkbox-icon-unchecked.png',
+        backgroundCheckedImage: '/images/controller/checkbox/checkbox-icon-checked.png',
         value: false
       },
     },
