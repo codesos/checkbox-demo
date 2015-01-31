@@ -1,5 +1,5 @@
 # Titanium *checkbox* widget [![Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://www.appcelerator.com)
-The *checkbox* widget implements the checkbox also like as *Html* Also take a look at my github demo [checkbox](https://github.com/lihlio/checkbox-demo) project.
+The *checkbox* widget implements the checkbox also like as *Html* you can look my the demo [checkbox](https://github.com/lihlio/checkbox-demo) on github.
 
 ## Quick Start
 
@@ -14,15 +14,14 @@ Add the widget to your *Project*:
 
 ```xml
 	
-	<View id="container">
-	  <Widget id="checkbox" src="com.dianlike.checkbox" />
-	</View>
+<View id="container">
+  <Widget id="checkbox" src="com.dianlike.checkbox" />
+</View>
 	
 ```
 	
 ```javascript
-
-		$.checkbox.init();
-		
+$.checkbox.init();
+$.checkbox.value(); // will get checkbox current if checked		
 ```
-all is ok!
+All is ok!
