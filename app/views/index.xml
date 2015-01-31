@@ -1,7 +1,12 @@
 <Alloy>
   <Window class="container"  backgroundColor="gray" id="mainWin"  layout="vertical">
-    <View id="index" height="Ti.UI.SIZE" top="50"></View>
-    <Label id="label" >----------------------------</Label>
-    <Widget id="checkbox" src="com.dianlike.checkbox" height="Ti.UI.SIZE"></Widget>
+    <View id="index" height="Ti.UI.SIZE" layout="horizontal" width="Ti.UI.FILL" top="50">
+      <Label text="am controller checkbox     "/>
+    </View>
+    <View borderColor="#ccc" height="1" width="Ti.UI.FIll" top="30" />
+    <View height="Ti.UI.SIZE" layout="horizontal" width="Ti.UI.FILL" top="30">
+      <Label text="am widgets    checkbox     " />
+      <Widget id="checkbox" src="com.dianlike.checkbox" right="5%"/>
+    </View>
   </Window>
 </Alloy>
