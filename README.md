@@ -8,6 +8,14 @@ Download this repository and consult the [Alloy Documentation](http://docs.appce
 
 `$ gittio install com.dialike.checkbox`
 
+### 截图
+
+Android 示例图:
+![Android](https://raw.githubusercontent.com/lihlio/checkbox-demo/master/doc/android.png)
+
+Ios 示例图:
+![Android](https://raw.githubusercontent.com/lihlio/checkbox-demo/master/doc/ios.png)
+
 ### Use it
 
 Add the widget to your *Project*:
@@ -24,4 +32,6 @@ Add the widget to your *Project*:
 $.checkbox.init();
 $.checkbox.value(); // will get checkbox current if checked		
 ```
+
 All is ok!
+
